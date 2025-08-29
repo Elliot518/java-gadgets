@@ -1,0 +1,39 @@
+{
+  "desensitizeFields": [
+    {
+      "fieldName": "phone",
+      "keepPrefix": 3,
+      "keepSuffix": 4,
+      "replaceChar": "*"
+    },
+    {
+      "fieldName": "idCard",
+      "keepPrefix": 6,
+      "keepSuffix": 4,
+      "replaceChar": "*"
+    },
+    {
+      "fieldName": "email",
+      "keepPrefix": 2,
+      "keepSuffix": 8,
+      "replaceChar": "*"
+    },
+    {
+      "fieldName": "address",
+      "keepPrefix": 6,
+      "keepSuffix": 0,
+      "replaceChar": "*"
+    },
+    {
+      "fieldName": "name",
+      "keepPrefix": 1,
+      "keepSuffix": 0,
+      "replaceChar": "*"
+    }
+  ],
+  "defaultRule": {
+    "keepPrefix": 2,
+    "keepSuffix": 1,
+    "replaceChar": "*"
+  }
+}
